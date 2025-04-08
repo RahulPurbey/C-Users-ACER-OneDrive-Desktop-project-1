@@ -1,0 +1,49 @@
+{
+  "id": "8793af2c-2d73-456e-94de-e9f5bcd61a5c",
+  "version": "2.0",
+  "name": "Web form selenium test",
+  "url": "https://www.selenium.dev",
+  "tests": [{
+    "id": "4ac883ee-503a-455d-9de3-51ed417541ce",
+    "name": "Untitled",
+    "commands": [{
+      "id": "b529f501-06d9-4490-89d1-a0dd5a810abc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac89f7af-be36-40a3-80c1-776c85a8cd6c",
+      "comment": "",
+      "command": "open",
+      "target": "selenium/web/web-form.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8245d2d-0c46-404f-b1ba-63213054a4d3",
+      "comment": "",
+      "command": "type",
+      "target": "id=my-text-id",
+      "targets": [],
+      "value": "Rahul Purbey"
+    }, {
+      "id": "1a2c1b48-ff4d-4d9c-af80-1e348c5adb3d",
+      "comment": "",
+      "command": "type",
+      "target": "id=my-textarea",
+      "targets": [],
+      "value": "hello my name is Rahul"
+    }]
+  }],
+  "suites": [{
+    "id": "46987e43-d34c-4183-a539-f07c2e11e664",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4ac883ee-503a-455d-9de3-51ed417541ce"]
+  }],
+  "urls": ["https://www.selenium.dev/"],
+  "plugins": []
+}
